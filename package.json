@@ -1,0 +1,33 @@
+{
+  "isMakaApp": true,
+  "name": "cxb-saleorder",
+  "description": "cxb-saleorder",
+  "version": "1.0.3",
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffycai/cxb-saleorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffycai/cxb-saleorder/issues"
+  },
+  "homepage": "https://github.com/jeffycai/cxb-saleorder#readme",
+  "scripts": {
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
+  },
+  "dependencies": {
+    "lsg-material-ui": "https://hub.makajs.org/lsg-material-ui/-/@1.0.4"
+  },
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": []
+}
